@@ -154,6 +154,22 @@ header {
   float: right;
 }
 
+#checkAvailableBtn{
+  background-color: #365250;
+  /* background-color: #31cec3; */
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 2px solid white;
+  width: 30vw;
+  display: inline-block;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: large;
+  color: white;
+}
+
 
 
 /*-------------------------------------------------*/
@@ -652,7 +668,7 @@ cursor: pointer;
 /* =  News Col 3
 /*-------------------------------------------------*/
 
-.content-two .content-text {
+/* .content-two .content-text {
 width: 100%;
 float: left;
 }
@@ -729,13 +745,13 @@ float: left;
 .content-two .content-box p {
   height: 132px;
   overflow: hidden;
-}
+} */
 
 /*-------------------------------------------------*/
 /* =  News Col 4
 /*-------------------------------------------------*/
 
-.content-three .content-box img{
+/* .content-three .content-box img{
   float: left;
   margin-right: 20px;
   width: 100%;
@@ -807,7 +823,7 @@ width: 100%;
 .content-three .content-box p {
   height: 132px;
   overflow: hidden;
-}
+} */
 
 /*-------------------------------------------------*/
 /* =  Accomodation 3 Columns

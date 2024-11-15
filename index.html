@@ -92,29 +92,9 @@
 	
 
 	<!-- Book Apointment -->
-	<div class="book-form mb30">
-		<div class="inner-form">
-		<form id="contact" action="javascript:void(0)" method="post">
-			<div class="inputs">
-				<input id="datepicker-example1" type="text" value="Check In">
-				<input id="datepicker-example2" type="text" value="Choose Out">
-				<select>
-					<option selected="selected" value="0">Adults</option>
-					<option value="2">2</option>
-					<option value="3">3</option>
-					<option value="4">4</option>
-				</select>
-				<select>
-					<option selected="selected" value="0">Children</option>
-					<option value="2">2</option>
-					<option value="3">3</option>
-					<option value="4">4</option>
-				</select>
-	        </div>
-
-			<input id="submit" type="submit" value="RESERVE NOW!">
-		</form>
-		
+	<div class="book-form mb30" style="display: flex; justify-content: center;">
+		<div class="card" style="align-items: center;">
+			<button id="checkAvailableBtn" >Check Availability</button>
 		</div>
 	</div>
 	<!-- End Book Apointment -->
@@ -283,9 +263,9 @@
 
 		<div class="contact column3">
 			<h4>Contact us</h4>
-			<p class="f-home">lorem ipsum street, melbourne, 2245</p>
-			<p class="f-phone">+399 (500) 321 9548</p>
-			<a href="#" class="f-mail">yourcompany@yourdomain.com</a>
+			<p class="f-home">1615/2, Bediwewa, Polonnaruwa</p>
+			<p class="f-phone">(+94)761826267 / (+94)716722468</p>
+			<a href="#" class="f-mail">whiteshinelodge@gmail.com</a>
 		</div>
 		<div class="clear"></div>
 		<!-- End Contact -->
@@ -296,7 +276,7 @@
 	<div class="end-footer">
 		<div class="lastdiv">
 			<div class="copyright">
-				© 2013 My Hotel, All Rights Reserved
+				© 2024 - Digitellz, All Rights Reserved
 			</div>
 
 		<div id="back-to-top">
@@ -322,6 +302,12 @@
     <script src="js/jquery.bxslider.js"></script>
     <script type="text/javascript" src="js/zebra_datepicker.js"></script>
     <script type="text/javascript" src="js/core.js"></script>
+
+	<script>
+		$('#checkAvailableBtn').on('click', function(){
+			location.replace("https://booking.com")
+		});
+	</script>
 
 </body>
 </html>

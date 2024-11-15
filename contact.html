@@ -18,6 +18,7 @@
 	<link rel="stylesheet" href="css/responsive.css" type="text/css" media="screen">
 	<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 
 	
 
@@ -97,10 +98,10 @@
 	</div>
 
 	<div class="inner-banner">
-		<h4>Accommodation</h4>
+		<h4>Contact Us</h4>
 		<div class="site_map">
 			<a href="index.html">Home</a>   
-			Accommodation
+			Contact Us
 		</div>
 		<div class="clear"></div>
 	</div>	
@@ -223,9 +224,9 @@
 
 		<div class="contact column3">
 			<h4>Contact us</h4>
-			<p class="f-home">lorem ipsum street, melbourne, 2245</p>
-			<p class="f-phone">+399 (500) 321 9548</p>
-			<a href="#" class="f-mail">yourcompany@yourdomain.com</a>
+			<p class="f-home">1615/2, Bediwewa, Polonnaruwa</p>
+			<p class="f-phone">(+94)761826267 / (+94)716722468</p>
+			<a href="#" class="f-mail">whiteshinelodge@gmail.com</a>
 		</div>
 		<div class="clear"></div>
 		<!-- End Contact -->
@@ -236,7 +237,7 @@
 	<div class="end-footer">
 		<div class="lastdiv">
 			<div class="copyright">
-				© 2013 My Hotel, All Rights Reserved
+				© 2024 - Digitellz, All Rights Reserved
 			</div>
 
 		<div id="back-to-top">
@@ -262,8 +263,21 @@
     <script src="js/jquery.bxslider.js"></script>
     <script type="text/javascript" src="js/zebra_datepicker.js"></script>
     <script type="text/javascript" src="js/core.js"></script>	
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB7z3qSfW7_1ArWHGs69jHLbLw-jOOGwuk"></script>
 	<script type="text/javascript" src="js/gmap3.min.js"></script>
+
+	<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script>
+        const map = L.map('map').setView([7.9403, 81.0188], 13);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19
+        }).addTo(map);
+
+        const marker = L.marker([7.9403, 81.0188]).addTo(map)
+            .bindPopup('<b>Hello!</b><br>We are Available')
+            .openPopup();
+    </script>
+
 
 </body>
 </html>
