@@ -638,19 +638,19 @@
 /* for 480px or less */
 @media screen and (max-width:480px) {
 
-
     #nav {
     float: none;
     width: 290px;
     margin-left: -15px;
     margin: auto;
+    display: none;
     }
     
     .wrapper {
         width:300px;
         margin:0 auto;
         display:block;
-        margin-top: 20px;
+        margin-top: 60px;
     }
 
     .upper-header {
@@ -673,7 +673,17 @@
     }
 
     .flexslider {
-        width: 300px;
+        display: none;
+        width: 100%;
+    }
+
+    .book-form{
+        margin-top: 10%;
+    }
+
+    .book-form > h2{
+        color: black;
+        text-shadow: 1px 1px 5px rgba(155, 215, 255, 0.7);
     }
 
     .inputs input[type="text"] {
@@ -712,8 +722,8 @@
     }
 
     .flickr ul li {
-    width: 80px;
-    margin-left: 22px;
+    width: 100px;
+    margin-left: 40px;
     margin-bottom: 20px;
     }
 

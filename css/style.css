@@ -131,9 +131,9 @@ header {
 .email a{
   font-family: Times;
   font-size: 18px;
-  color: #6c727f;
+  color: #494c53;
   background: url(../images/e-mail.png) 0 center no-repeat;
-  padding-left: 40px;
+  /* padding-left: 40px; */
   margin-top: 40px;
   display: block;
 }
@@ -146,7 +146,7 @@ header {
 .phone p {
   font-family: Times;
   font-style: 18px;
-  color: #6c727f;
+  color: #494c53;
   background: url(../images/phone.png) 0 center no-repeat;
   padding: 1px 0;
   padding-left: 30px;
@@ -693,166 +693,6 @@ cursor: pointer;
   padding-bottom: 10px;
 }
 
-/*-------------------------------------------------*/
-/* =  News Col 3
-/*-------------------------------------------------*/
-
-/* .content-two .content-text {
-width: 100%;
-float: left;
-}
-
-.content-two .content-box {
-  width: 31%;
-}
-.content-two .content-box h4{
-  margin-top: 10px;
-}
-
-
-.content-two .content-box img{
-  float: left;
-  margin-right: 20px;
-  width: 100%;
-}
-
-.content-two .post-meta {
-    margin-bottom: 7px;
-    background: #f5f5f5;
-    border: 1px solid #ebebeb;
-    padding: 10px 25px;
-}
-
-.content-two .post-comment {
-  background: url(../images/post_comment.png) 0 no-repeat;
-  padding: 7px 0;
-  padding-left: 25px;
-  float: left;
-  margin-right: 35px;
-  color:  #4c4c4c;
-  font-size:  11px;
-  margin-bottom: 5px;
-}
-
-.content-two .post-author {
-  background: url(../images/post_user.png) 0px no-repeat;
-  padding: 7px 0;
-  padding-left: 25px;
-  float: left;
-  margin-right: 0px;
-  color:  #4c4c4c;
-  font-size:  11px;
-  margin-bottom: 5px;
-}
-.content-two .post-date {
-  background: url(../images/post_date.png) 0px no-repeat;
-  padding: 7px 0;
-  padding-left: 25px;
-  float: left;
-  color:  #4c4c4c;
-  font-size:  11px;
-  margin-right: 35px;
-  margin-bottom: 5px;
-}
-
-.content-two .read-more {
-  font-size: 12px;
-  color: #fff;
-  background-color: #6c727f;
-  padding: 8px 15px;
-  float: left;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
-  margin-top: -2px;
-}
-
-.content-two .read-more:hover {
-  background: #41444c;
-}
-
-.content-two .content-box p {
-  height: 132px;
-  overflow: hidden;
-} */
-
-/*-------------------------------------------------*/
-/* =  News Col 4
-/*-------------------------------------------------*/
-
-/* .content-three .content-box img{
-  float: left;
-  margin-right: 20px;
-  width: 100%;
-}
-
-.content-three .content-box h4{
-  margin-top: 10px;
-}
-
-.content-three .content-text {
-width: 100%;
-}
-
-.content-three .post-meta {
-    margin-bottom: 7px;
-    background: #f5f5f5;
-    border: 1px solid #ebebeb;
-    padding: 10px 25px;
-}
-
-.content-three .post-comment {
-  background: url(../images/post_comment.png) 0 no-repeat;
-  padding: 7px 0;
-  padding-left: 25px;
-  float: left;
-  margin-right: 35px;
-  color:  #4c4c4c;
-  font-size:  11px;
-  margin-bottom: 5px;
-}
-
-.content-three .post-author {
-  background: url(../images/post_user.png) 0px no-repeat;
-  padding: 7px 0;
-  padding-left: 25px;
-  float: left;
-  margin-right: 0px;
-  color:  #4c4c4c;
-  font-size:  11px;
-  margin-bottom: 5px;
-}
-.content-three .post-date {
-  background: url(../images/post_date.png) 0px no-repeat;
-  padding: 7px 0;
-  padding-left: 25px;
-  float: left;
-  color:  #4c4c4c;
-  font-size:  11px;
-  margin-right: 35px;
-  margin-bottom: 5px;
-}
-
-.content-three .read-more {
-  font-size: 12px;
-  color: #fff;
-  background-color: #6c727f;
-  padding: 8px 15px;
-  float: left;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
-  margin-top: -2px;
-}
-
-.content-three .read-more:hover {
-  background: #41444c;
-}
-
-.content-three .content-box p {
-  height: 132px;
-  overflow: hidden;
-} */
 
 /*-------------------------------------------------*/
 /* =  Accomodation 3 Columns
