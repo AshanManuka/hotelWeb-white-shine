@@ -154,21 +154,50 @@ header {
   float: right;
 }
 
-#checkAvailableBtn{
-  background-color: #365250;
-  /* background-color: #31cec3; */
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border: 2px solid white;
-  width: 30vw;
-  display: inline-block;
-  border-radius: 10px;
-  font-weight: 500;
-  font-size: large;
-  color: white;
+.slider {
+  position: relative;
 }
+
+.book-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 50%;
+  max-width: 600px;
+}
+
+.book-form h2 {
+  margin: 0 0 10px;
+  font-size: 24px;
+  color: #fff;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+}
+
+#checkAvailableBtn {
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  width: 80%;
+  height: 100%;
+  border: none;
+  background-color: #1a3c61;
+  color: #fff;
+  border-radius: 5px;
+}
+
+
+
 
 
 
@@ -1442,6 +1471,7 @@ footer {
   padding: 6px 10px 6px;
   width: 248px;
   border:1px solid #33383e;
+  border-radius: 5px;
   background: #6c727f;
   font-family: 'Pt Sans', sans-serif;
   color: #fff;
@@ -1452,6 +1482,7 @@ footer {
   padding: 6px 10px 6px;
   width: 248px;
   border:1px solid #33383e;
+  border-radius: 5px;
   background: #6c727f;
   font-family: 'Pt Sans', sans-serif;
   color: #fff;
@@ -1467,7 +1498,7 @@ footer {
   font-family: Arial;
   color: #ffffff;
   font-size: 11px;
-  background: #31cec3;
+  background: #0a726b;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   border: none;
@@ -1477,6 +1508,7 @@ footer {
 
 .touch input[type="submit"]:hover {
   background: #26928a;
+  border: 2px solid rgba(255, 255, 255, 0.8);
   text-decoration: none;
 }
 
@@ -1486,10 +1518,11 @@ footer {
 
 .flickr ul li {
   float: left;
-  width: 82px;
+  margin-right: 2px;
+  /* width: 82px;
   height: 82px;
   margin-left: 12px;
-  margin-bottom: 12px;
+  margin-bottom: 12px; */
 }
 
 .flickr img {
