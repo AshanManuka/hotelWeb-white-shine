@@ -8,6 +8,10 @@
         margin-top: 20px;
     }
 
+    #mobileNvBar{
+        display: none;
+    }
+
     .upper-header {
        width:940px; 
     }
@@ -645,6 +649,32 @@
     margin: auto;
     display: none;
     }
+
+    #mobileNvBar {
+        display: flex;
+        margin-bottom: 5px;
+        justify-content: center; /* Center the columns horizontally */
+    }
+    
+    .loc {
+        border: 1px solid rgb(159, 185, 211);
+        border-radius: 5px;
+        padding: 5px 20px;
+        font-size: x-small;
+        margin: 0;
+        background-color: rgb(97, 182, 154);
+        display: flex; /* Enable flexbox inside .loc */
+        justify-content: center; /* Horizontally center the content */
+        align-items: center; /* Vertically center the content */
+    }
+    
+    .loc > a {
+        color: black;
+        text-decoration: none; /* Optional: removes underline */
+    }
+    
+
+
     
     .wrapper {
         width:300px;

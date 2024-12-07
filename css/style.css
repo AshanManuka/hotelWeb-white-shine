@@ -56,6 +56,10 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+#mobileNvBar{
+  display: none;
+}
+
 .clear {
   clear: both;
 }
@@ -129,13 +133,7 @@ header {
 }
 
 .email a{
-  font-family: Times;
-  font-size: 18px;
-  color: #494c53;
-  background: url(../images/e-mail.png) 0 center no-repeat;
-  /* padding-left: 40px; */
-  margin-top: 40px;
-  display: block;
+  display: none;
 }
 
 .logo {
@@ -169,10 +167,7 @@ header {
 }
 
 .book-form h2 {
-  margin: 0 0 10px;
-  font-size: 24px;
-  color: #fff;
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+  display: none;
 }
 
 .card {
